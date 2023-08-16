@@ -2,6 +2,7 @@
 This company offered internship for commuincation engineers to work in 5G systems.
 
 ## Q1. Good number
+
 A  **Good number** is one whose number of distinct prime factors is equal to the number of digits in its decimal representation
 **NOTE:** The number **'1'** is considered as a Good Number.
 Given **Q** queries, each query specifying two integers **a** and **b**, find the number of **Good Number** lying between **a** and **b** **(both included).**
@@ -39,6 +40,7 @@ In the range 100-105 only 102 and 105 are good numbers.
 
 
 ## Q2. Longest Cipher
+
 A cipher is hidden within a sequence of charecters and has the following restrictions:
 a. It has to contain at least one uppercase charecter
 b. It cannot contain any digits
@@ -80,3 +82,8 @@ Explanation:
 
 The three valid ciphers are (b, C, b, d), so the output is the length of "bCbd", which is 4.
 
+## Q3. Winning Stratagy
+
+You are given a Snake and Ladder board of order **5x6**. Find the minimum number of dice throws required to reach the distination or the last cell(30^th cell) from the source(1^st cell), i.e., you start from 1 to reach 30.
+
+### Example
