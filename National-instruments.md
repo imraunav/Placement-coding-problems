@@ -12,5 +12,7 @@ Each of the next **Q** lines consists of two integers **a** and **b** denoting t
 
 ## Constraints
 $1 <= Q <= 5*10^4$
+$1<=a<=b<=10^5$
 
-
+## Output
+Print **Q** lines. The $i^{th}$
