@@ -6,18 +6,18 @@ A  **Good number** is one whose number of distinct prime factors is equal to the
 **NOTE:** The number **'1'** is considered as a Good Number.
 Given **Q** queries, each query specifying two integers **a** and **b**, find the number of **Good Number** lying between **a** and **b** **(both included).**
 
-## Input
+### Input
 The first line contains an integer **Q** denoting the number of queries.
 Each of the next **Q** lines consists of two integers **a** and **b** denoting the range for this querry.
 
-## Constraints
+### Constraints
 $1 <= Q <= 5*10^4$
 $1<=a<=b<=10^5$
 
-## Output
+### Output
 Print **Q** lines. The $i^{th}$ line contains the answer for the $i^{th}$ query.
 
-## Example
+### Example
 Input:
 ```
 3
@@ -32,6 +32,51 @@ Output:
 2
 ```
 Explanation:
+
 In the range 1-10, all numbers except 6 are good numbers.
 In the range 55-59 the good numbers are 55, 56, 57 and 58.
 In the range 100-105 only 102 and 105 are good numbers.
+
+
+## Q2. Longest Cipher
+A cipher is hidden within a sequence of charecters and has the following restrictions:
+a. It has to contain at least one uppercase charecter
+b. It cannot contain any digits
+
+You are given a string **s** consisting of an alphanumeric characters. You need to find the longest substring of **s** that is valid cipher and return its length. A substring is defined as a continuous segment of a string.
+
+For example, given "k3Cb", the substance that are valid ciphers are "C" and "Cb". Note that "kCb" is not a substring and "k3C" is not a valid cipher. In this case, your function should return to as the longest substring is "Cb". Alternatively given "k3cb" your function should return -1, since there is no substring that satisfies the restrictions on the format of a valid cipher.
+
+### Input:
+The input contains a string **s**.
+
+### Output:
+Print the length of the longest substring that is a valid cipher.
+If there is no such substring, your function should return -1.
+
+### Example #1
+Input
+```
+a2Bac
+```
+Output
+```
+3
+```
+Explanation:
+
+The three valid ciphers are (B, a, c), so the output is the length of "Bac", which is 3.
+
+### Example #2
+Input
+```
+aA0bCbd
+```
+Output
+```
+4
+```
+Explanation:
+
+The three valid ciphers are (b, C, b, d), so the output is the length of "bCbd", which is 4.
+
