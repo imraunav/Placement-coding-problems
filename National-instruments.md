@@ -15,4 +15,23 @@ $1 <= Q <= 5*10^4$
 $1<=a<=b<=10^5$
 
 ## Output
-Print **Q** lines. The $i^{th}$
+Print **Q** lines. The $i^{th}$ line contains the answer for the $i^{th}$ query.
+
+## Example
+Input:
+```
+3
+1 10
+55 59
+100 105
+```
+Output:
+```
+9
+4
+2
+```
+Explanation:
+In the range 1-10, all numbers except 6 are good numbers.
+In the range 55-59 the good numbers are 55, 56, 57 and 58.
+In the range 100-105 only 102 and 105 are good numbers.
