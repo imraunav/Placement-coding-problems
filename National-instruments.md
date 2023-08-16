@@ -87,3 +87,54 @@ The three valid ciphers are (b, C, b, d), so the output is the length of "bCbd",
 You are given a Snake and Ladder board of order **5x6**. Find the minimum number of dice throws required to reach the distination or the last cell(30^th cell) from the source(1^st cell), i.e., you start from 1 to reach 30.
 
 ### Example
+![Snanes and Ladder](https://github.com/imraunav/Placement-coding-problems/blob/main/WhatsApp%20Image%202023-08-16%20at%2020.00.03.jpeg)
+
+For the above board, the output will be 3.
+Throws: 2, 6, 2
+
+### Input
+The first line of input contains an integer N representing the number of ladders and snakes present.
+The second line of the input contains N space-seperated values as N/2 pairs (a,b), representing a ladder or a snake at position 'a' and which takes to a position 'b'.
+**Note:** A ladder and a snake cannot share endpoints.
+
+### Output
+The required minimum number of dice throws.
+
+### Constraints 
+$1<=N<=10$
+$1<=a<=30$
+$1<=b<=30$
+
+### Example #1
+
+Input
+```
+12
+11 26 3 22 5 8 20 29 27 1 21 9
+```
+
+Output
+```
+3
+```
+
+Explanation:
+
+There are four ladder:(11->26), (3->22), (5->8), (20,29) and two snake:(27->1) and (21->9). Upon throwing 2, 6, 2, one reaches the destination using minimal throws.
+
+### Example #2
+
+Input
+```
+4
+2 28 29 1
+```
+
+Output
+```
+2
+```
+
+Explanation:
+
+There is one ladder:(2->28), and one snake:(29->1). Upon throwing 1, 2, one reaches the destination using minimal throws.
