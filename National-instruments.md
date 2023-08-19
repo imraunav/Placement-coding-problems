@@ -90,7 +90,8 @@ The three valid ciphers are (b, C, b, d), so the output is the length of "bCbd",
 You are given a Snake and Ladder board of order **5x6**. Find the minimum number of dice throws required to reach the distination or the last cell(30^th cell) from the source(1^st cell), i.e., you start from 1 to reach 30.
 
 ### Example
-![Snanes and Ladder](https://github.com/imraunav/Placement-coding-problems/blob/main/WhatsApp%20Image%202023-08-16%20at%2020.00.03.jpeg)
+![Snanes and Ladder](https://media.geeksforgeeks.org/wp-content/uploads/snake-and-ladders.jpg)
+
 
 For the above board, the output will be 3.
 Throws: 2, 6, 2
