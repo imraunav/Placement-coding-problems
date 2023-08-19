@@ -43,8 +43,8 @@ In the range 100-105 only 102 and 105 are good numbers.
 ## Q2. Longest Cipher
 
 A cipher is hidden within a sequence of charecters and has the following restrictions:
-a. It has to contain at least one uppercase charecter
-b. It cannot contain any digits
+1. It has to contain at least one uppercase charecter
+2. It cannot contain any digits
 
 You are given a string **s** consisting of an alphanumeric characters. You need to find the longest substring of **s** that is valid cipher and return its length. A substring is defined as a continuous segment of a string.
 
