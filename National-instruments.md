@@ -38,7 +38,7 @@ Explanation:
 In the range 1-10, all numbers except 6 are good numbers.
 In the range 55-59 the good numbers are 55, 56, 57 and 58.
 In the range 100-105 only 102 and 105 are good numbers.
-### My Solutions: ![python](good_number.py)
+### My Solutions: [python](good_number.py)
 
 ## Q2. Longest Cipher
 
@@ -82,6 +82,8 @@ Output
 Explanation:
 
 The three valid ciphers are (b, C, b, d), so the output is the length of "bCbd", which is 4.
+
+### My Solutions: [python](cypher.py)
 
 ## Q3. Winning Stratagy
 
